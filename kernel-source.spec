@@ -47,9 +47,9 @@ rm -rf %{buildroot}
 %{source_path}
 
 %changelog
-* Thu Jan 12 2012 Franck Bui <franck.bui@mandriva.com> 
-  + Mandriva Release v3.2-1
-  + Subject: vfs: fix shrink_dcache_parent() livelock
+* Fri Jan 13 2012 Franck Bui <franck.bui@mandriva.com> 
+  + Mandriva Release v3.2.1-1
+  + vfs: fix shrink_dcache_parent() livelock
   + Prevent BCMA from taking the BCM4313 device
   + Revert "staging: brcm80211: only enable brcmsmac if bcma is not set"
   + dcache: use a dispose list in select_parent
