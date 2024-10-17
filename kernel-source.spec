@@ -24,7 +24,7 @@ Version:		%{version}
 Release:		%mkrel %{source_release}
 License:		GPLv2
 Group:			System/Kernel and hardware
-URL:			http://www.kernel.org
+URL:			https://www.kernel.org
 Source0:		%{archive}.tar.bz2
 Buildarch:		noarch
 BuildRoot:		%{_tmppath}/%{name}-%{version}-root
